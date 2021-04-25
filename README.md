@@ -3,7 +3,8 @@
 $ cd docker
 $ ./command start
 $ ./command exec_react
-# yarn start
+
+/app # yarn start
 ```
 http://localhost:8080/
 
