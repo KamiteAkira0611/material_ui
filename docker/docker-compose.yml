@@ -6,8 +6,8 @@ services:
       dockerfile: ./docker/react/Dockerfile
     image: material-test-react
     container_name: material-test-react
+    tty: true
     volumes:
       - ../react/:/app
     ports:
       - "8080:3000"
-    command: yarn start
